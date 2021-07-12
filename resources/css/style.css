@@ -18,25 +18,69 @@ h1 {
 
 #headline {
     padding-top: 40px;
+    display: block;
 }
 
 body {
     text-align: center;
 }
 
-#applink {
+.applink {
+    display: block;
     padding-top: 3.125rem;
     font-size: 1rem;
 }
 
-#applink a {
+.applink a {
     color: aquamarine;
 }
 
-#applink a:hover {
+.applink a:hover {
     color: greenyellow;
 }
 
 video {
+    display: block;
+    margin: 0 auto;
     padding-top: 2rem;
+}
+
+h2 {
+    color: white;
+    font-weight: 300;
+    font-size: 2.625rem;
+}
+
+h4 {
+    font-size: 1.3125rem;
+    font-weight: 100;
+    color: gray;
+}
+
+#travelguide {
+    text-align: center;
+    padding-top: 40px;
+    line-height: 5rem;
+}
+
+#travelguide img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+h5 {
+    color: grey;
+    text-align: right;
+    font-weight: 100;
+    font-size: 1rem;
+}
+
+#copyright {
+    padding-top: 80px;
+    padding-right: 20px;
 }
